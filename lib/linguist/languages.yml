@@ -3187,6 +3187,45 @@ RobotFramework:
   # - .txt
   tm_scope: text.robot
   ace_mode: text
+  
+C:
+  type: programming
+  color: "#555555"
+  extensions:
+  - .c
+  - .cats
+  - .h
+  - .idc
+  - .w
+  interpreters:
+  - tcc
+  ace_mode: c_cpp
+
+C#:
+  type: programming
+  ace_mode: csharp
+  tm_scope: source.cs
+  search_term: csharp
+  color: "#178600"
+  aliases:
+  - csharp
+  extensions:
+  - .cs
+  - .cake
+  - .cshtml
+  - .csx
+
+RobotC:
+  type: programming
+  ace_mode: robotc
+  color: "#0000cc"
+  aliases:
+  - roboc
+  extensions:
+  - .c
+  - .cpp
+  - .h
+  - .rbc
 
 Rouge:
   type: programming
